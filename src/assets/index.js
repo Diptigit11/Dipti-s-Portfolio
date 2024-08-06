@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cake from "./cake.png"
+import profile from './profile.png'
+import resume_Dipti from './resume_Dipti.pdf'
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  cake,
+  profile,
+  resume_Dipti,
 };

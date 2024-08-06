@@ -4,25 +4,19 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    cake,
   } from "../assets";
   
   export const navLinks = [
@@ -72,18 +66,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -108,10 +94,6 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
   ];
   
   const experiences = [
@@ -151,49 +133,32 @@ import {
         "I've gained insights into hosting hackathons, from defining objectives and planning logistics to effectively promoting the event to engage participants.",
       ],
     },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
+    {
+      name: "A Cake Shop Website",
+      description:
+        "This cake website allows customers to browse through various cake options,view descriptions,and make purchases easily via whatsapp.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cake,
+      source_code_link: "https://chocolatetiffin.onrender.com/",
+    },
     {
       name: "Tic Tac Toe ",
       description:
@@ -206,19 +171,6 @@ import {
       ],
       image: carrent,
       source_code_link: "https://diptigit11.github.io/TicTacToeGame/",
-    },
-    {
-      name: "Black Jack Game",
-      description:
-        "I've built a Blackjack game where players can enjoy the classic card game against the computer",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        }
-      ],
-      image: jobit,
-      source_code_link: " https://diptigit11.github.io/BlackJack_Game/",
     },
     {
       name: "Burger King",
@@ -237,27 +189,7 @@ import {
       image: tripguide,
       source_code_link: "https://diptigit11.github.io/BurgerKing/",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
