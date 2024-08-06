@@ -23,19 +23,19 @@ const Hero = () => {
           <a
             href={resume_Dipti}
             download="resume_Dipti.pdf"
-            className="inline-block mt-4 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 text-center"
+            className="inline-block mt-4 bg-blue-500 text-white text-lg font-bold py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 text-center"
           >
-            Download Resume
+             Resume
           </a>
         </div>
 
         {/* Profile Image */}
         <div className="flex-grow flex justify-end items-center mt-20">
-          <div className="border-4 border-white p-2 sm:p-4 sm:rounded-full rounded-md">
+          <div className="hidden lg:block border-4 border-white p-2 rounded-full">
             <img
               src={profile}
               alt="Profile"
-              className="w-32 h-32 sm:w-64 sm:h-64 sm:rounded-full rounded-md object-cover shadow-lg"
+              className="w-64 h-64 rounded-full object-cover shadow-lg"
             />
           </div>
         </div>
